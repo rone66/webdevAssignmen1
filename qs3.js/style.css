@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+.left-nav{
+    
+    width: 45%;
+}
+.left-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.left-nav ul li a{
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+}
+.left-nav ul li a:hover{
+    font-size: 18px;
+    transition: 1s;
+}
+.right-nav{
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 35%;
+}
+.right-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.right-nav ul li a{
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+}
+button{
+    padding: 6px 10px;
+    border: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    color: rgb(16, 15, 15);
+    background-color: rgb(240, 240, 10);
+    cursor: pointer;
+}
+button:hover{
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 1s;
+}
+.main{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.right{
+    width: 40%;
+    height: 30%;
+}
+.right img{
+    width: 600px;
+    height: 450px;
+}
+.left{
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 100%;
+    gap: 10px;
+}
+
+.left h3{
+    font-weight: 300;
+    margin-left:-3% ;
+    width: 500px;
+  
+}
+.left button{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.left button:hover{
+    padding: 7px 11px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 1s;
+}
+.foot{
+    margin-top: 4%;
+    width: 100%;
+    height: 90px;
+    background: rgb(16, 15, 15) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot p{
+    color: rgb(233, 235, 238);
+}
+.foot div{
+    
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    
+    gap: 15px;
+}
+.foot div a{
+    text-decoration: none;
+    color: rgb(224, 227, 231);
+    padding: 2px 4px;
+    border: 2px solid rgb(233, 229, 229);
+}
+.foot div p{
+    cursor: pointer;
+}
